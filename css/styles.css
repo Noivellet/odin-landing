@@ -11,22 +11,33 @@ body {
   font-size: 48px;
   color: #F9FAF8;
   font-weight: 900;
+  margin: 0px;
 }
 
 .hero-secondary-text {
   font-size: 19px;
   color: #E5E7EB;
+  margin: 0px;
 }
 
 .header-logo-text {
   font-size: 24px;
   font-weight: 900;
   color: #F9FAF8;
-  margin: 16px;
+  margin: 16px 0px;
 }
 
 button, .cta {
   background-color: #3882F6;
+}
+
+button {
+  color: #E5E7EB;
+  padding: 8px 30px;
+  border: 0px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .information-header-text {
@@ -41,6 +52,8 @@ button, .cta {
   background-color: #E5E7EB;
   color: #1F2937
 }
+
+/* Header styling */
 
 .header {
   padding: 0px 20%;
@@ -61,3 +74,24 @@ button, .cta {
   color: #F9FAF8;
   text-decoration: none;
 }
+
+/* Hero styling */
+
+.hero {
+  padding: 140px 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text-container {
+  width: 460px;
+}
+
+.hero-text-container p {
+  margin-bottom: 12px;
+}
+
+/* Main styling */
+
+/* Footer styling */
