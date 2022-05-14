@@ -48,7 +48,7 @@ button {
 
 .quote {
   font-size: 36px;
-  font-weight: lighter;
+  font-weight: 100;
   background-color: #E5E7EB;
   color: #1F2937
 }
@@ -126,4 +126,24 @@ button {
   border-radius: 14px;
 }
 
+.quote {
+  padding: 80px 30% 60px 30%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote blockquote {
+  margin: 0px;
+}
+
+.quote-author-text {
+  align-self: flex-end;
+  margin: 0px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
 /* Footer styling */
+
