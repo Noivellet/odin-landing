@@ -27,12 +27,12 @@ body {
   margin: 16px 0px;
 }
 
-button, .cta {
+button{
   background-color: #3882F6;
 }
 
 button {
-  color: #E5E7EB;
+  color: #F9FAF8;
   padding: 8px 30px;
   border: 0px;
   border-radius: 8px;
@@ -145,5 +145,36 @@ button {
   font-weight: bold;
 }
 
-/* Footer styling */
+.call-to-action-container{
+  padding: 100px 20%;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 40px 160px;
+}
+
+.cta-main-text {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 4px 0px;
+}
+
+.cta-main-text+p {
+  color: #E5E7EB;
+  font-size: 16px;
+  margin: 4px 0px;
+}
+
+.call-to-action button {
+  border: 2px solid #E5E7EB;
+  border-radius: 8px;
+}
+
+/* Footer styling */ 
 
