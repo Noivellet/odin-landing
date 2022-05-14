@@ -1,0 +1,40 @@
+body {
+  font-family: "Roboto", Verdana, sans-serif;
+}
+
+.dark-background {
+  background: #1F2937;
+}
+
+.hero-text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 1000;
+}
+
+.hero-secondary-text {
+  font-size: 19px;
+  color: #E5E7EB;
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: #F9FAF8
+}
+
+button, .cta {
+  background-color: #3882F6;
+}
+
+.information-header-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 1000;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  background-color: #E5E7EB;
+  color: #1F2937
+}
